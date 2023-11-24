@@ -1,0 +1,9 @@
+This below package installed for styling
+
+$npm install @fortawesome/fontawesome-free-solid-svg-icons @fortawesome/react-fontawesome
+
+$npm install mongodb mongoose  
+for db querying purpose and for future enhancements
+
+admin
+E1IxA906UKtduwiW
