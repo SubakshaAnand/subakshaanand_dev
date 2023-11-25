@@ -23,6 +23,21 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/page.jsx",
+    "app/layout.jsx",
+    "app/(components)/TicketCard.jsx",
+    "app/(components)/PriorityDisplay.jsx",
+    "app/(components)/Nav.jsx",
+    "app/(components)/DeleteBlock.jsx",
+    "app/(components)/ProgressDisplay.jsx",
+    "app/TicketPage/[id]/page.jsx",
+    "app/(components)/StatusDisplay.jsx",
+    "app/(components)/TicketForm.jsx"
+  ],
   "exclude": ["node_modules"]
 }

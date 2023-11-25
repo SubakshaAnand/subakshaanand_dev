@@ -1,6 +1,6 @@
 import React from "react";
 
-const TicketPage = ({ params }: any) => {
+const TicketPage = ({ params }) => {
   return (
     <>
       <div>TicketPage {params.id}</div>
